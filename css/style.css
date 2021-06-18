@@ -1,0 +1,70 @@
+header {
+  padding: 4em 0;
+  background: #070719;
+  background-image: url("../img/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.caixa-cabecalho {
+  width: 940px;
+  margin: 0 auto;
+}
+
+.caixa-cabecalho h1 {
+  text-align: center;
+  font-size: 4em;
+  font-weight: bold;
+  color: white;
+  font-family: monospace;
+  font-family: 'Josefin Sans', sans-serif;
+  display: inline;
+}
+
+.caixa-cabecalho img {
+  padding: 0 1em;
+}
+
+main {
+  background-image: url("../img/background2.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.caixa-bot {
+  padding: 40% 0 1% 0;
+}
+
+footer {
+  padding: 2em;
+  background: #070719;
+  text-align: center;
+}
+
+footer p {
+  text-align: center;
+  color: #fff;
+}
+
+footer img {
+  width: 60px;
+}
+
+@media screen and (max-width: 940px) {
+  .caixa-cabecalho {
+    width: 100%;
+    text-align: center;
+  }
+
+  .caixa-cabecalho h1 {
+    font-size: 2em;
+    display: block;
+  }
+
+  .caixa-bot {
+    padding: 100% 0 0 0;
+  }
+}
